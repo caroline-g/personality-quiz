@@ -1,0 +1,53 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: 'Nunito', sans-serif;
+  margin: 2em;
+  background-image: linear-gradient(to right, #f7e6fc, #cf6ded);
+  text-align: center
+}
+
+p {
+  font-size: 20;
+  padding-bottom: 2em
+}
+
+h1 {
+  color: purple;
+}
+
+h2 {
+  margin-top: 2.2em; 
+}
+
+.question {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2em;
+}
+  
+.answer-choice img {
+  height: 10em;
+  display: flex;
+}
+
+.answer-choice {
+  padding-bottom: 2em;
+}
+
+.whitebg {
+  background-image: radial-gradient(white, #eeccff);
+  border-style: double;
+  border-color: purple;
+  border-width: 8px;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.result {
+  background-image: radial-gradient(white, #eeccff);
+  max-width:100%;
+  text-align: center;
+  border-style: groove;
+  margin-top: 4em;
+}
